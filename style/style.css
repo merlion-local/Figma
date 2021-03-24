@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.info{
+	position: absolute;
+	width: 1280px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	background: #000000;
+
+}
+#contacts{
+
+	position: absolute;
+	width: 355px;
+	height: 16px;
+	left: 150px;
+	top: 14px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #969696;
+	list-style: none;
+	cursor: pointer;
+
+}
+#logon{
+
+	position: absolute;
+	width: 107px;
+	height: 16px;
+	left: 1000px;
+	top: 14px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: right;
+	color: #969696;
+	list-style: none;
+	cursor: pointer;
+}
+.photo{
+	display: inline-block;
+	height: 18px;
+	position: absolute;
+	bottom: 13px;
+	margin-left: 120px;
+	border-radius: 5px;
+	background: #969696;
+	cursor: pointer;
+
+
+}
+.exet{
+	display: inline-block;
+	height: 18px;
+	position: absolute;
+	bottom: 13px;
+	margin-left: 960px;
+	border-radius: 5px;
+	background: #969696;
+	cursor: pointer;
+
+
+}

@@ -7,7 +7,7 @@
 	
 	height: 44px;
 	background: #000000;
-	padding: 0 20%;
+	padding: 0 21%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -65,6 +65,55 @@
 	list-style: none;
 	
 }
+#Navigation {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 21%;
+	height: 100%;
+	background: #0F0F0F;
+
+}
+#Navigation .menu li{
+
+	display: inline;
+	padding: left	20px;
+}
+.porten{
+
+	padding: 0 20%;
+	height: 49px;
+	/*widows: 104px;*/
+	
+
+}
+
+
+
+
+.search  {
+	height: 16px;
+	background: #FFFFFF;
+
+}
+.basket {
+	height: 16px;
+	background: #FFFFFF;
+
+}
+ .menu {
+	display: inline-block;
+	list-style-type: none;		
+	height: 18px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
 
 	
 

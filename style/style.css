@@ -3,22 +3,25 @@
 	padding: 0;
 }
 
-.info{
-	position: absolute;
-	width: 1280px;
+#info{
+	
 	height: 44px;
-	left: 0px;
-	top: 0px;
 	background: #000000;
+	padding: 0 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 
 }
-#contacts{
 
-	position: absolute;
-	width: 355px;
+#info .contacts .item{
+	padding: 0 10px;
+
+
+}
+#info .contacts {
 	height: 16px;
-	left: 150px;
-	top: 14px;
 	font-family: PT Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -26,16 +29,32 @@
 	line-height: 16px;
 	color: #969696;
 	list-style: none;
-	cursor: pointer;
+
+	
+}
+#info .contacts span{
+	padding: 0 10px;
+}
+#info .contacts span + span{
+	border-left: 1px solid #969696;
+
 
 }
-#logon{
+#info .contacts a {
+	color: #969696;
+	left padding: 5px;
+	text-decoration: none;
+	left padding: 5px;
+}
 
-	position: absolute;
-	width: 107px;
-	height: 16px;
-	left: 1000px;
-	top: 14px;
+#info .logon a {
+	color: #969696;
+	text-decoration: none;
+	left padding: 5px;
+
+
+}
+.logon {
 	font-family: PT Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -44,29 +63,10 @@
 	text-align: right;
 	color: #969696;
 	list-style: none;
-	cursor: pointer;
+	
 }
-.photo{
-	display: inline-block;
-	height: 18px;
-	position: absolute;
-	bottom: 13px;
-	margin-left: 120px;
-	border-radius: 5px;
-	background: #969696;
-	cursor: pointer;
+
+	
 
 
-}
-.exet{
-	display: inline-block;
-	height: 18px;
-	position: absolute;
-	bottom: 13px;
-	margin-left: 960px;
-	border-radius: 5px;
-	background: #969696;
-	cursor: pointer;
 
-
-}

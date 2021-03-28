@@ -13,8 +13,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-
 }
 
 #info .contacts .item{
@@ -69,7 +67,7 @@
 }
 #Navigation {
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	padding: 0 0;
 	height: 100%;
 	background: #0F0F0F;
@@ -95,15 +93,18 @@
 
 
 
-.search  {
+#search  {
 	height: 16px;
-	background: #FFFFFF;
+	padding-left: 10px;
+	color: white;
+	text-decoration: none;
+
 
 }
-.basket {
+#basket {
 	height: 16px;
-	background: #FFFFFF;
-
+	color: white;
+	text-decoration: none;
 }
  .menu  {
 	display: inline;
@@ -119,6 +120,71 @@
 	margin: 30px;
 	text-decoration: none;
 }
+#bag {
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg);
+
+}
+.Ramka{
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	left: 800px;
+	top: 350px;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+}
+.Ramka .PORTEN{
+	height: 86px;
+	left: 867px;
+	top: 100px;
+	font-family: Post No Bills Jaffna;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 120px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.Ramka .SPB{
+	
+
+	height: 44px;
+	left: 700px;
+	top: 466px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 310px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+.Discription{
+	position: absolute;
+	width: 730px;
+	height: 96px;
+	left: 595px;
+	top: 684px;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+
+
+
 
 
 

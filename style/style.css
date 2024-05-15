@@ -1,5 +1,3 @@
-
-  
 *{
 	margin: 0;
 	padding: 0;
@@ -7,7 +5,7 @@
 
 #info{
 	
-	height: 44px;
+	height: 45px;
 	background: #000000;
 	padding: 0 21%;
 	display: flex;
@@ -39,21 +37,7 @@
 	border-left: 1px solid #969696;
 
 
-}
-#info .contacts a {
-	color: #969696;
-	left padding: 5px;
-	text-decoration: none;
-	left padding: 5px;
-}
 
-#info .logon a {
-	color: #969696;
-	text-decoration: none;
-	left padding: 5px;
-
-
-}
 .logon {
 	font-family: PT Sans;
 	font-style: normal;
@@ -180,14 +164,4 @@
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
-
-
-
-
-
-
-
-
-	
-
-
+}
